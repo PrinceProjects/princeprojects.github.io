@@ -141,16 +141,16 @@ header{
 	margin: 20px auto;
 	padding: 12px 18px;
 	font-size: 22px;
-	color: black;
-	background-color: #660be6;
+	color: white;
+	background-color: crimson;
 	text-decoration: none;
 	border-radius: 10px;
 	border:none;
 	outline: none;
 }
 .more-btn:hover{
-	background-color: #7947bf;
-	color: white;
+	background-color: #c42525;
+	color: black;
 }
 
 /*-------------------PROJECTS--------------------
@@ -241,6 +241,7 @@ header{
 }
 .lead{
 	margin: 20px auto;
+	color: white;
 }
 .contact{
     background-color: #151515;
@@ -286,6 +287,22 @@ input{
 	outline: none;
 	border: none;
 	border-radius: 10px;
+}
+.submit-btn{
+	margin: 20px auto;
+	padding: 12px 18px;
+	font-size: 22px;
+	color: white;
+	background-color: crimson;
+	text-decoration: none;
+	border-radius: 10px;
+	cursor: pointer;
+	border:none;
+	outline: none;
+}
+.submit-btn:hover{
+	background-color: #c42525;
+	color: black;
 }
 /*-------------------Footer---------------------
 -----------------------------------------------*/
