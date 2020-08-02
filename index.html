@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Navigation</title>
+     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-----------------Header----------------------
+    -------------------------------------------- -->
+    <header>
+      <div id="menu" class="menu">
+        <span class="menu-icon"></span>
+        <span class="menu-icon"></span>
+        <span class="menu-icon"></span>
+      </div>
+      <div class="logo">
+          <h4>Hello I'am Prince</h4>
+      </div>
+      <nav class="main-nav">
+        <div>
+          <ul id="nav-list" class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#home"> HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"> PROJECTS </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> ABOUT </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> CONTACT </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- ------------------------------------------ 
+      -------------------------------------------->
+
+      <!-- --------------welcome---------------------
+      --------------------------------------------->
+
+      <section id="home" class="home">
+      
+        <div class="container">
+			<img class="my-pic" src="./img/mp.jpg" alt="">
+			<div class="intro">
+				<h3 class="intro-lead">Hello, I'am Prince </h3>
+				<p class="intro-tags">A Full-Stack Web Developer <br>
+					<!-- Content Creator <br> -->
+
+				</p>
+			</div>					
+			<a href="#about-me" class="more-btn">More About Me...</a>
+        </div>
+
+        
+      </section>
+
+    <!-- ------------------------------------------
+    ------------------------------------------- -->
+
+    <!-- --------------projects---------------------
+    ------------------------------------------- -->
+
+    <section id="projects" class="projects">
+      	<h2 class="projects-lead"> My Latest Projects </h2>
+        
+        <div class="projects-container">
+            <a
+              href="https://princeprojects.github.io/Statewise-Covid-19-Cases-in-india-Live-Tracker-/"
+              class="project-tile"
+              target="_blank"
+            >
+              <img src="img/covid.jpg" alt="" />
+              <p class="project-title">
+                Covid-19 Cases Live Tracker
+              </p>
+            </a>
+            <a
+              href="https://princeprojects.github.io/techNews/"
+              class="project-tile"
+              target="_blank"
+            >
+              <img src="img/technews.png" alt="" />
+              <p class="project-title">
+                Latest Stories from HackerNews
+              </p>
+            </a>
+            <a
+              href="https://princeprojects.github.io/Statewise-Covid-19-Cases-in-india-Live-Tracker-/"
+              class="project-tile"
+              target="_blank"
+            >
+              <img src="img/techdoc.jpg" alt="" />
+              <p class="project-title">
+                Basic Python Documentation 
+              </p>
+            </a>
+            <a
+              href="https://princeprojects.github.io/random-quote-generator/"
+              class="project-tile"
+              target="_blank"
+            >
+              <img src="img/rquote.jpg" alt="" />
+              <p class="project-title">
+                Random Quote Generator
+              </p>
+            </a>
+            <a
+              href="https://github.com/PrinceProjects/Image-Searcher"
+              class="project-tile"
+              target="_blank"
+            >
+              <img src="img/imagesearcher.png" alt="" />
+              <p class="project-title">
+                 Image Searcher
+              </p>
+            </a>   
+        </div>
+
+        
+      </section>
+
+    <!-- ------------------------------------------
+    ------------------------------------------- -->
+
+    <!-- --------------About---------------------
+      --------------------------------------------->
+	<div id="about" class="about">
+		<div id="about-me" class="about-me">
+			<div class="intro-x">
+				<h3 class="amh">A bit more about myself...</h3>
+
+				<p>I am a full-stack developer. I have great passion for coding in general. Currently doing my B.Tech from University Institute of Technology RGPV Bhopal. </p>
+
+			    
+          		<p>I write articles on various topics like WebDevelopment, linux, python, etc. <a href="https://medium.com/@princeagrawalnew123" target="_blank"><i class="fa fa-medium"></i></a></p>
+			 
+          		<h3 class="amh">Hobbies</h3>
+          		<p>I also enjoy solving problems on codeforces with python and answer questions on stackoverflow.</p>
+			</div>
+			
+			<div class="skills">
+				<h3 class="amh">Languages & Tools</h3>
+				<p>I have hands on and working knowledge of the following -</p>
+				<ul class="skill-list">
+					<li>HTML, CSS & JavaScript</li>
+					<li>Node.js & Express.js</li>
+					<li>MongoDB & Mongoose.js</li>
+					<li>React.js</li>
+					<li>Python</li>
+					<li>AWS</li>
+				</ul>	
+
+			</div>		    	
+    	</div>
+	</div>
+    
+      
+    <!-- ------------------------------------------
+    ------------------------------------------- -->
+
+    <!-- --------------contact--------------------
+    ------------------------------------------- -->
+	<div id="contact" class="contact">
+		<!-- <hr> -->
+		<h2 class="center lead">contact me</h2>
+		<form action="post" class="contact-form">
+      		<div class="form-field">
+      			<label for="name">NAME
+      				<i class="fa fa-user-o"></i></label>
+      			<br>
+      			<input type="text" name="name" id="">
+      		</div>
+      		<div class="form-field">
+      			<label for="name">EMAIL <i class="fa fa-envelope"></i></label>
+      			<br>
+      			<input type="text" name="name" id="">
+      		</div>
+      		<div class="form-field">
+      			<label for="name">MESSAGE <i class="fa fa-pencil-square-o"></i></label>
+      			<br>
+      			<textarea class="textarea" name="message" id="" cols="30" rows="10"></textarea>
+      		</div>
+  		</form>
+	</div>
+    
+
+    <!-- ------------------------------------------
+    ------------------------------------------- -->
+
+    <!-- --------------Footer--------------------
+    ------------------------------------------- -->
+    
+    <div id="footer" class="footer">
+    	<!-- <p>	CONNECT WITH ME </p> -->
+        <ul class="social-links">
+          <li><a href="https://www.linkedin.com/in/prince-agrawal-332251195/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/PrinceProjects" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="mailto:princeagrawalnew123@gmail.com" target="_blank"><i class="fa fa-google"></i></a></li>
+          <li><a href="https://medium.com/@princeagrawalnew123" target="_blank"><i class="fa fa-medium"></i></a></li>
+          <li><a href="tel:9165512064" target="_blank"><i class="fa fa-phone"></i></a></li>
+        </ul>
+      	<!-- <p>&copy All rights reserved</p> -->
+    </div>
+
+    <!-- ------------------------------------------
+    ------------------------------------------- -->
+
+    <script src="./index.js"></script> 
+  </body>
+</html>
