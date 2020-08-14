@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# PEOPLE
+
+	Prince Agrawal
+	Full Stack Web Developer
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript, 
+    Normalize.css, FontAwesome
+    Github.com

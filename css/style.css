@@ -22,7 +22,6 @@ header{
     z-index: 999;
     width: 100%;
 	opacity: 0.92;
-
 }
 .menu{
 	/*z-index: 999; opacity needs work*/
@@ -251,8 +250,6 @@ header{
 	width: 100%;
 	max-width: 700px;
 	padding: 10px 20px;
-	
-
 }
 .form-field label{
 	font-size: 14px;	
