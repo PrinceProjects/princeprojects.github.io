@@ -110,8 +110,8 @@ header{
 }
 
 .my-pic{
-	width: 250px;
-	height: 250px;
+	width: 232px;
+	height: 232px;
 	border-radius: 50%;
 }
 
@@ -155,7 +155,7 @@ header{
 #projects{
 	width: 100%;
 	text-align: center;
-	padding: 30px 0;
+	padding: 100px 0;
 	background-color: #151515;
 }
 
@@ -166,7 +166,7 @@ header{
 }
 
 .projects-container{
-	margin: 10px;
+	/*margin: 10px;*/
 	padding: 10px;
 	display: inline-grid;
 }
@@ -205,7 +205,7 @@ header{
 -----------------------------------------------*/
 .about{
 	/*margin: 50px auto 0 auto;*/
-	padding: 40px 20px 20px 20px;
+	padding: 100px 20px 20px 0px;
 	width: 100%;
 	background-color: #151515;
 	display: flex;
@@ -225,7 +225,7 @@ header{
 	max-width: 700px;
 }
 .skill-list{
-	margin: 10px auto 20px auto;
+	margin: 10px auto 0px auto;
 	padding-left: 25px;
 }
 
@@ -240,7 +240,8 @@ header{
 }
 .contact{
     background-color: #151515;
-    margin-top: 70px;
+    /*margin-top: 70px;*/
+    padding-top: 100px;
 }
 .contact-form{
 	align-items: center;
