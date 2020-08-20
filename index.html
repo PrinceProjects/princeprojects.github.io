@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Description" content="This my a personal portfolio site for Prince Agrawal.">
     <meta name="theme-color" content="#ffffff"/>
+
     <title>Prince Agrawal</title>
+
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="./favicon_io/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" href="./favicon_io/apple-touch-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
   </head>
+
   <body>
     <!-----------------Header----------------------
     -------------------------------------------- -->
@@ -51,17 +57,15 @@
       <section id="home" class="home">
       
         <div class="container">
-			<img class="my-pic" src="./assets/img/pnew2.WebP" alt="">
-			<div class="intro">
-				<h3 class="intro-lead">Hello, I'am Prince </h3>
-				<p class="intro-tags">Full-Stack Web Developer <br>
-					<!-- Content Creator <br> -->
-
-				</p>
-			</div>					
-			<a href="#about-me" class="more-btn">More About Me...</a>
+			    <img class="my-pic" src="./assets/img/pnew2.WebP" alt="">
+			    <div class="intro">
+  				  <h3 class="intro-lead">Hello, I'am Prince </h3>
+  				  <p class="intro-tags">Full-Stack Web Developer <br>
+  					<!-- Content Creator <br> -->
+  				  </p>
+			    </div>					
+			    <a href="#about-me" class="more-btn">More About Me...</a>
         </div>
-
         
       </section>
 
@@ -75,6 +79,7 @@
       	<h2 class="projects-lead"> My Latest Projects </h2>
         
         <div class="projects-container">
+
             <a
               href="https://princeprojects.github.io/Statewise-Covid-19-Cases-in-india-Live-Tracker-/"
               class="project-tile"
@@ -86,6 +91,7 @@
                 Covid-19 Cases Live Tracker
               </p>
             </a>
+
             <a
               href="https://princeprojects.github.io/techNews/"
               class="project-tile"
@@ -97,16 +103,7 @@
                 Latest Stories from HackerNews
               </p>
             </a>
-           <!--  <a
-              href="https://codepen.io/PrinceProjects/pen/BaNPoMK"
-              target="_blank" 
-              rel="noopener"
-            >
-              <img src="assets/img/techdoc.jpg" alt="" />
-              <p class="project-title">
-                Basic Python Documentation 
-              </p>
-            </a> -->
+
             <a
               href="https://princeprojects.github.io/random-quote-generator/"
               class="project-tile"
@@ -118,6 +115,7 @@
                 Random Quote Generator
               </p>
             </a>
+
             <a
               href="https://github.com/PrinceProjects/Image-Searcher"
               class="project-tile"
@@ -128,9 +126,9 @@
               <p class="project-title">
                  Image Searcher
               </p>
-            </a>   
-        </div>
+            </a>
 
+        </div>
         
       </section>
 
@@ -147,10 +145,10 @@
 				<p>I am a full-stack developer. I have great passion for coding in general. Currently doing my B.Tech from University Institute of Technology RGPV Bhopal. </p>
 
 			    
-          		<p>I write articles on various topics like WebDevelopment, linux, python, etc. <a href="https://medium.com/@princeagrawalnew123" target="_blank" rel="noopener"><i class="fa fa-medium"></i></a></p>
+        <p>I write articles on various topics like WebDevelopment, linux, python, etc. <a href="https://medium.com/@princeagrawalnew123" target="_blank" rel="noopener"><i class="fa fa-medium"></i></a></p>
 			 
-          		<h3 class="amh">Hobbies</h3>
-          		<p>I also enjoy solving problems on codeforces with python and answer questions on stackoverflow.</p>
+        <h3 class="amh">Hobbies</h3>
+        <p>I also enjoy solving problems on codeforces with python and answer questions on stackoverflow.</p>
 			</div>
 			
 			<div class="skills">
@@ -164,9 +162,9 @@
 					<li>Python</li>
 					<li>AWS</li>
 				</ul>	
+			</div>
 
-			</div>		    	
-    	</div>
+    </div>
 	</div>
     
       
@@ -178,7 +176,11 @@
 	<div id="contact" class="contact">
 		<!-- <hr> -->
 		<h2 class="center lead"><i class="fa fa-address-card" aria-hidden="true"></i> contact me </h2>
-		<form action="" class="contact-form">
+		<form 
+      action="http://localhost:5000/api/formdata" 
+      class="contact-form" 
+      method="post" 
+      target="_blank">
       		<div class="form-field">
       			<label for="name">NAME
       				<i class="fa fa-user-o"></i></label>
@@ -188,7 +190,7 @@
       		<div class="form-field">
       			<label for="email">EMAIL <i class="fa fa-envelope"></i></label>
       			<br>
-      			<input type="text" name="name" id="email">
+      			<input type="text" name="email" id="email">
       		</div>
       		<div class="form-field">
       			<label for="message">MESSAGE <i class="fa fa-pencil-square-o"></i></label>

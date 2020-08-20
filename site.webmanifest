@@ -1,6 +1,7 @@
 { 
 	"name":"Prince Agrawal",
 	"short_name":"Prince Agrawal",
+	"description": "Portfolio of Prince Agrawal",
 	"icons":[
 		{
 			"src":"./favicon_io/android-chrome-192x192.png",
