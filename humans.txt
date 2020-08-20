@@ -11,3 +11,4 @@
     CSS3, HTML5, JavaScript, 
     Normalize.css, FontAwesome
     Github.com
+    sw-precache
