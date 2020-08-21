@@ -12,3 +12,5 @@
     Normalize.css, FontAwesome
     Github.com
     sw-precache
+    imagebot
+    heroku

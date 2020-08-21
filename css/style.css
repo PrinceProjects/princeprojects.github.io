@@ -281,6 +281,7 @@ input{
 	outline: none;
 	border: none;
 	border-radius: 10px;
+	resize: vertical;
 }
 .submit-btn{
 	margin: 20px auto;
