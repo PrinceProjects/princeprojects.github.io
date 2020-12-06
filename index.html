@@ -13,6 +13,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="./favicon_io/apple-touch-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="./css/style.css">
 
   </head>
@@ -177,10 +178,10 @@
 		<!-- <hr> -->
 		<h2 class="center lead"><i class="fa fa-address-card" aria-hidden="true"></i> contact me </h2>
 		<form 
-      action="https://calm-oasis-38778.herokuapp.com/api/formdata" 
-      id="contact_form" 
-      class="contact-form" 
+      action="https://send.pageclip.co/ekPHhK9Q6EzeigH6H6X05uXWlPG1WkX8" 
+      class="pageclip-form contact-form" 
       method="post" 
+      id="contact_form" 
       target="_blank">
       		<div class="form-field">
       			<label for="name">NAME
@@ -199,7 +200,9 @@
       			<textarea class="textarea" name="message" id="message" cols="30" rows="10"></textarea>
       		</div>
           <div class="form-field">
-            <input type="submit" class="submit-btn" value="Submit">
+            <button type="submit" class="submit-btn pageclip-form__submit" value="Submit">
+            	<span>Submit</span>
+            </button>
           </div>
   		</form>
 	</div>
@@ -232,6 +235,7 @@
     <!-- ------------------------------------------
     ------------------------------------------- -->
 
-    <script src="./index.js"></script> 
+    <script src="./index.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script> 
   </body>
 </html>
